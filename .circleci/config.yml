@@ -1,8 +1,10 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: debian:stretch
+    machine:
+      node:
+        version: 8.15.1
+     
 
     steps:
       - checkout
@@ -13,4 +15,12 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-      
+      - run:
+          name: Install JUnit coverage reporter
+          command: yarn add --dev jest-junit
+      - run:
+          name: Run tests with JUnit as reporter
+          command: jest --ci --runInBand --reporters=default --reporters=jest-junit
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+          
