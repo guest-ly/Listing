@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1562951663955" clover="3.2.0">
-  <project timestamp="1562951663955" name="All files">
+<coverage generated="1562953174737" clover="3.2.0">
+  <project timestamp="1562953174737" name="All files">
     <metrics statements="80" coveredstatements="66" conditionals="62" coveredconditionals="49" methods="34" coveredmethods="29" elements="176" coveredelements="144" complexity="0" loc="80" ncloc="80" packages="1" files="3" classes="3"/>
     <file name="Amenity.jsx" path="/Users/yisun/Desktop/Listing/client/component/Amenity.jsx">
       <metrics statements="19" coveredstatements="17" conditionals="16" coveredconditionals="14" methods="8" coveredmethods="8"/>
@@ -74,22 +74,22 @@
       <line num="100" count="0" type="stmt"/>
       <line num="101" count="0" type="stmt"/>
       <line num="102" count="0" type="stmt"/>
-      <line num="107" count="0" type="stmt"/>
+      <line num="106" count="0" type="stmt"/>
+      <line num="125" count="31" type="cond" truecount="2" falsecount="0"/>
       <line num="126" count="31" type="cond" truecount="2" falsecount="0"/>
-      <line num="127" count="31" type="cond" truecount="2" falsecount="0"/>
+      <line num="127" count="31" type="stmt"/>
       <line num="128" count="31" type="stmt"/>
-      <line num="129" count="31" type="stmt"/>
-      <line num="130" count="31" type="cond" truecount="2" falsecount="0"/>
-      <line num="131" count="31" type="stmt"/>
-      <line num="151" count="8" type="stmt"/>
-      <line num="190" count="1" type="stmt"/>
-      <line num="199" count="8" type="stmt"/>
-      <line num="208" count="0" type="stmt"/>
-      <line num="231" count="1" type="stmt"/>
-      <line num="245" count="1" type="stmt"/>
-      <line num="256" count="1" type="stmt"/>
-      <line num="257" count="33" type="stmt"/>
-      <line num="259" count="1" type="stmt"/>
+      <line num="129" count="31" type="cond" truecount="2" falsecount="0"/>
+      <line num="130" count="31" type="stmt"/>
+      <line num="150" count="8" type="stmt"/>
+      <line num="189" count="1" type="stmt"/>
+      <line num="198" count="8" type="stmt"/>
+      <line num="207" count="0" type="stmt"/>
+      <line num="230" count="1" type="stmt"/>
+      <line num="244" count="1" type="stmt"/>
+      <line num="255" count="1" type="stmt"/>
+      <line num="256" count="33" type="stmt"/>
+      <line num="258" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

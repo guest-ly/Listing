@@ -102,7 +102,6 @@ class Description extends React.Component{
                     poplistitems.push(
                         <div className='poplistitem' >
                             <div className='categorytitle' key={amencategory[i]}>{amencategory[i]}</div> 
-                            
                                 {subcategory.map((cc,index) =>
                                     <div className='categorycontent' key={cc}>
                                         {cc}  
