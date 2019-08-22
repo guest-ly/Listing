@@ -1,13 +1,13 @@
 # Listing
 
--------
+
 ## Related Projects
 
 - https://github.com/guest-ly/Reservations
 - https://github.com/guest-ly/PhotoCarousel
 
--------
-##Usage
+
+## Usage
 
 - Install dependencies
 `npm install` 
