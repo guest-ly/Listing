@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run:webpack": "webpack -p --watch",
+    "react-dev": "webpack -p --watch",
     "test": "jest --watchAll --coverage",
     "db": "node database/seed.js",
     "start": "nodemon ./server/index.js",
